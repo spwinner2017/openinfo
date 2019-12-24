@@ -8,6 +8,10 @@ switch (expression) {
     return x * y;
   }
     break;
+  case 'div': (x, y) => {
+    return x / y;
+  }
+ break
   default:
     // execute default statement  
     break;

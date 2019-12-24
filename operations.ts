@@ -1,11 +1,14 @@
-switch(expression) { 
-   case add: 
-   break
-   case sub:
-   break;
-   case mul:
-   break;
-   default:  
-     // execute default statement  
-      break;     
+let expression
+switch (expression) {
+  case 'add':
+    break
+  case 'sub':
+    break;
+  case 'mul': (x, y) => {
+    return x * y;
+  }
+    break;
+  default:
+    // execute default statement  
+    break;
 }

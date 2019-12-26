@@ -17,6 +17,7 @@ switch (expression) {
   default:
     // execute default statement  
     (x, y) => {
+      console.log('this is a test log')
       return x + y;
     }
     break;

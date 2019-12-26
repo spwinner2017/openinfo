@@ -16,5 +16,8 @@ switch (expression) {
     break
   default:
     // execute default statement  
+    (x, y) => {
+      return x + y;
+    }
     break;
 }
